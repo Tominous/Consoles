@@ -39,12 +39,12 @@ hide-save-messages: false
 #
 # If you think there is something wrong with a Lua function call
 # into Consoles, you can enable this to get the full stack trace.
-debug-mode: false
+debug-mode: true
 
 # Enables a debug hook, launching a specified debug command when
 # the plugin starts. Only use this command if you need to
 # use a debugger to backtrace a JVM crash.
-debug-hook: false
+debug-hook: true
 
 # The command to use for the debug hook. You can use the %N
 # variable for a 'name' to be generated for the debug session,
