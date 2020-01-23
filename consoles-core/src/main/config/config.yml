@@ -20,7 +20,7 @@ starting-map-index: 5000
 # Debug mode. Useful for developers, this option will print information
 # about canvases being created and removed, and will raise more exceptions
 # to the console rather than ignoring them.
-debug-mode: false
+debug-mode: true
 
 # This is the range (in blocks) that a player must be in order to
 # interact with a console
