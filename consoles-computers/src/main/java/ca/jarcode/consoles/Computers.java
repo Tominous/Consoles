@@ -61,9 +61,9 @@ public class Computers extends JavaPlugin {
 	// amount of instructions to wait before checking
 	public static int interruptCheckInterval = 200;
 	// debug mode
-	public static boolean debug = false;
+	public static boolean debug = true;
 	// debug hook
-	public static boolean debugHook = false;
+	public static boolean debugHook = true;
 	// debug hook command
 	public static String debugHookCommand = "x-terminal-emulator,-e,gdb,-p,%I,-ex," +
 			"catch syscall exit exit_group,-ex,cont,-ex,handle SIGSEGV pass";
